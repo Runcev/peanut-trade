@@ -1,5 +1,5 @@
 // Decision regarding the way of calculating
-export const decisionOfEvaluating = (
+export const decisionOfEvaluating = async (
   price: number,
   inputAmount: number,
   indexOfInputCurrency: number,

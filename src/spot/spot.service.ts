@@ -75,7 +75,7 @@ export class SpotService {
 
         return {
           exchangeName: exchange.name,
-          rate: decisionOfEvaluating(
+          rate: await decisionOfEvaluating(
             pairPrice,
             inputAmount,
             estimatePair.indexOfInputCurrency,
